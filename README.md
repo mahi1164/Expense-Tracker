@@ -60,7 +60,7 @@ Expense-Tracker
 ### Clone
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/mahi1164/Expense-Tracker>
 ```
 
 ### Backend
