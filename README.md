@@ -86,4 +86,4 @@ http://localhost:5000
 
 ## Author
 
-Mahip Panjwani
+Mahi Panjwani
