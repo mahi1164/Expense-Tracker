@@ -2,6 +2,13 @@
 
 A full-stack Expense Tracker application built using React, Node.js, Express and MongoDB Atlas.
 
+## Dashboard
+
+<p align="center">
+  <img src="screenshots/dashboard1.png" width="48%">
+  <img src="screenshots/dashboard2.png" width="48%">
+</p>
+
 ## Features
 
 - Add new expenses

@@ -1,93 +1,16 @@
-# Expense Tracker
+# React + Vite
 
-A full-stack Expense Tracker application built using React, Node.js, Express and MongoDB Atlas.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Dashboard
+Currently, two official plugins are available:
 
-![Dashboard](./src/assets/dashboard1.png)
-![Dashboard](./src/assets/dashboard2.png)
-## Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-- Add new expenses
-- View all expenses
-- Delete expenses
-- Expense summary
-- Category-wise expense calculation
-- Search expenses
-- Filter by category
-- Expense chart (Chart.js)
+## React Compiler
 
-## Tech Stack
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-### Frontend
+## Expanding the ESLint configuration
 
-- React
-- Bootstrap
-- Axios
-- Chart.js
-
-### Backend
-
-- Node.js
-- Express.js
-- MongoDB Atlas
-- Mongoose
-
-## Folder Structure
-
-```
-Expense-Tracker
-│
-├── client
-│   ├── src
-│   ├── public
-│   └── package.json
-│
-├── server
-│   ├── config
-│   ├── controllers
-│   ├── models
-│   ├── routes
-│   ├── server.js
-│   └── package.json
-```
-
-## Installation
-
-### Clone
-
-```bash
-git clone <repository-url>
-```
-
-### Backend
-
-```bash
-cd server
-npm install
-node server.js
-```
-
-### Frontend
-
-```bash
-cd client
-npm install
-npm run dev
-```
-
-Frontend runs on
-
-```
-http://localhost:5173
-```
-
-Backend runs on
-
-```
-http://localhost:5000
-```
-
-## Author
-
-Mahi Panjwani
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
